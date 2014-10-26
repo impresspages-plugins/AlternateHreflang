@@ -1,0 +1,7 @@
+{
+    "title": "Altenrate hreflang",
+    "version": "1.00",
+    "name": "AlternateHreflang",
+    "description": "Add <link rel=\"alternate\" hreflang=\"es\" href=\"http://es.example.com/\" /> tags to your pages.",
+    "author": "ImpressPages"
+}
