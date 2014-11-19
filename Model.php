@@ -26,6 +26,11 @@ class Model
         return ipDb()->selectValue(self::TABLE_NAME, array('key'), array('pageId' => $pageId));
     }
 
+    public static function removePageKey($pageId)
+    {
+        ipDb()->delete(self::TABLE_NAME, array('pageId' => $pageId));
+    }
+
     public static function getPageIdsByKey($key)
     {
         return ipDb()->selectColumn(self::TABLE_NAME, 'pageId', array('key' => $key));
